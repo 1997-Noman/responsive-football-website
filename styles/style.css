@@ -1,0 +1,139 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+/* common styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.player-container-2{
+    margin-top: 27px;
+    width:1440px;
+    background-color: #FFFFFF;
+  }
+  /* headings styles */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D25A0;
+    align-items: center;
+    width: 1440px;
+    padding-top: 42px;
+
+}
+nav a{
+    font-family: Poppins;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 16px;
+    margin-right:20px;
+    width: 590px;
+    height: 24px;
+
+}
+
+.login-btn,.watch-button{
+    background-color: #E02C6D;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 123px;
+    height: 44px;
+   
+}
+.banners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2D25A0;
+    width: 1440px;
+    height: 677px;
+ }
+ .banner-details{
+     padding-top:207px;
+     padding-left:156px;
+     padding-bottom:240px;
+    
+ }
+ .banner-title{
+     font-size: 64px;
+     color:#FFFFFF ;
+    
+ }
+ 
+ .watch-button{
+     background-color: #E02C6D;
+     font-size: 16px;
+     color: #FFFFFF;
+     width: 168px;
+     height: 44px;
+    
+ }
+ .top-banner img{
+     width: 556.01px;
+     height: 438px;
+     padding-top: 153px;
+     padding-bottom: 86px;
+     padding-right: 140.99px;
+ }
+ .player-container{
+    margin-top: 70px;
+    width:1440px;
+    background-color: #FFFFFF;
+  }
+.flexible-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    padding-left: 180px;
+    padding-right: 210px;
+    
+}
+.box-container{
+    width: 315px;
+   height: 490px;
+    padding-right: 15px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    border-image-slice: 1;
+}
+.box-text{
+    margin-top: 16px;
+   padding-left: 15px;
+    width: 300px;
+    height: 154px;
+  
+}
+.box-container h1{
+    font-weight: 700;
+    font-size: 28px;
+    color:#18191F;
+}
+.box-container p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #6C6C6C;
+    
+}
+.player-img-area{
+    width: 300px;
+    height: 256px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+
+}
