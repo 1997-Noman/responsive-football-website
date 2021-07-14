@@ -143,6 +143,7 @@ nav a{
 .highlights-container{
     margin-top: 165px;
     width:1440px;
+    height: 600px;
     background-color:#FFFFFF;
   }
 
@@ -189,44 +190,13 @@ nav a{
     
     
  }
- /* Footer Section Styles */
-.footer-container{
-    align-items: center;
-    background-color: #FFFFFF;
-  }
-  .footer-contents{
-    display: grid;
-   align-items: center;
-   justify-content: center;
-    padding-bottom:40px ;
-    
- }
-  .footer-logo img{
-      margin-top: 15px;
-    height: 100px;
-    width: 450px;
-
-}
-.copyright{
-    padding-left: 150px;
-}
-.copyright-text{
-    margin-top: 18px;
-    padding-left: -28px;
-}
-.social-icon a{
-    text-decoration: none;
-    height: 30px;
-    width: 180px;
-    padding-left: 27px;
-    padding-bottom: 120px;
-}
-/* album styles to about */
-.Album-title{
+ 
+/* last styles to about */
+.last-title{
     text-align: center;
-    font-size: 64px;
+    font-size: 50px;
 }
-.photo-album{
+.last-album{
     display: flex;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -235,7 +205,7 @@ nav a{
     padding-left:156px;
     
 }
-.photo-frame{
+.last-frame{
     width: 380px;
     height: 500px;
     border: 2px solid #FFFFFF;
@@ -245,7 +215,7 @@ nav a{
     overflow: hidden;
     
 }
-.photo-frame:hover .photo-detail{
+.last-frame:hover .photo-detail{
     display: block; 
     background-color: rgba(255, 238, 238, 0.7);
       
@@ -270,7 +240,7 @@ nav a{
     width: 380px;
     top: 0;
 }
-.photo-frame:hover .photo{
+.last-frame:hover .photo{
     transform: scale(1) skew(180deg);
     transition: transform 3s ease-in-out;
 }
@@ -279,4 +249,37 @@ hr{
 }
 .fa-clock{
     color: rgba(255, 94, 0, 0.945);
+}
+ /* Footer Section Styles */
+ .footer-container{
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  .footer-contents{
+    display: grid;
+   align-items: center;
+   justify-content: center;
+    padding-bottom:40px ;
+    
+ }
+  .footer-logo img{
+      margin-top: 15px;
+      margin-right: 100px;
+    height: 100px;
+    width: 450px;
+
+}
+.copyright{
+    padding-left: 150px;
+}
+.copyright-text{
+    margin-top: 18px;
+    padding-left: -28px;
+}
+.social-icon a{
+    text-decoration: none;
+    height: 30px;
+    width: 180px;
+    padding-left: 27px;
+    padding-bottom: 120px;
 }
