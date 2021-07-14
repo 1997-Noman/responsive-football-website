@@ -295,6 +295,22 @@ hr{
     padding-left: 27px;
     padding-bottom: 120px;
 }
+/* horizontal linebreak */
+hr{
+    border: 2px solid #8b7878;
+    margin-bottom: 25px;
+}
+
+/* video highlighter  sections styles */
+.video-title{
+    text-align: center;
+    font-size: 40px;
+}
+.video-highlights{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 25px;
+}
 
 /* Media query */
 /* for mobile */
@@ -305,7 +321,7 @@ hr{
     .banners{
         background-color: #E02C6D;
         grid-template-columns: repeat(1, 1fr);
-        
+
 
     }
     .nav{
